@@ -23,7 +23,7 @@ return 0;
 void read(struct student s[],int n)
 {
 int i;
-for(i=0;i<n;i++);
+for(i=0;i<n;i++)
 {
 printf("\nDETAILS OF STUDENTS%s\n",i+1);
 printf("Enter Name: ");
@@ -44,7 +44,7 @@ void write(struct student s[],int n)
 {
 int i;
 printf("\n------STUDENT DETAILS------\n");
-for(i=0;i<n;i++);
+for(i=0;i<n;i++)
 {
 printf("\nstudent%d\n",i+1);
 
